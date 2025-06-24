@@ -6,7 +6,7 @@
 # Make sure 1Password CLI is installed and you're signed in
 
 # Run the Python script with command-line arguments
-python process_proton_attachments.py --folder holding --drop ../Holding/Drop --config-file holding_last_check.json
+python3 process_proton_attachments.py --folder holding --drop ../Holding/Drop --config-file holding_last_check.json
 
 # Exit with the same status as the Python script
 exit $?
